@@ -1,0 +1,16 @@
+@import './base.css';
+@import './cardAnimation.css';
+
+#app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: end;
+  padding-bottom: 3rem;
+}

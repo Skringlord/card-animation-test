@@ -1,0 +1,31 @@
+@keyframes cardRollAnimation {
+    100% {
+        transform: translateX(160%) rotateY(180deg);
+        transform-origin: -30% center;
+    }
+}
+
+@keyframes cardPushUpTopAnimation {
+    100% {
+        margin-top: -290px;
+        transform: scale(1.2);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
+
+@keyframes cardPushDownTopAnimation {
+    100% {
+        margin-top: -320px;
+        box-shadow: none;
+        transform: scale(1);
+    }
+}
+
+@keyframes cardPushDownTopMobileAnimation {
+    100% {
+        margin-top: -290px;
+        box-shadow: none;
+        transform: scale(1.5);
+    }
+}
